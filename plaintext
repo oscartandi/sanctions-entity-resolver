@@ -1,0 +1,10 @@
+sanctions-entity-resolver/
+├── app/
+│   ├── __init__.py
+│   ├── main.py          # FastAPI routes & screening pipeline
+│   ├── matcher.py       # Normalization, fuzzy & attribute scoring
+│   └── watchlist.py     # Mock OFAC/UN-style sanctions dataset
+├── tests/
+│   └── test_screening.py
+├── requirements.txt
+└── README.md

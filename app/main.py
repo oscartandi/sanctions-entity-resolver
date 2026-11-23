@@ -5,7 +5,7 @@ from app.matcher import score_candidate
 from app.watchlist import WATCHLIST
 
 app = FastAPI(
-    title="Sanctions Screening ^& Fuzzy Match Entity Resolution Service",
+    title="Sanctions Screening & Fuzzy Match Entity Resolution Service",
     version="1.0.0",
 )
 
@@ -33,6 +33,19 @@ class ScreenResponse(BaseModel):
     overall_status: str
     total_hits: int
     hits: List[MatchHit]
+
+
+@app.get("/")
+def root():
+    return {
+        "service": "Sanctions Screening & Fuzzy Match Entity Resolution Service",
+        "version": "1.0.0",
+        "endpoints": {
+            "docs": "/docs",
+            "health": "/health",
+            "screen": "POST /screen",
+        },
+    }
 
 
 @app.get("/health")

@@ -1,0 +1,38 @@
+WATCHLIST = [
+    {
+        "id": "OFAC-1001",
+        "name": "Viktor Petrovich Sokolov",
+        "aliases": ["Victor Sokolov", "V. P. Sokolov"],
+        "entity_type": "individual",
+        "country": "RU",
+        "dob": "1974-05-12",
+        "program": "RUSSIA-EO14024",
+    },
+    {
+        "id": "UN-2044",
+        "name": "Al-Noor Global Trading LLC",
+        "aliases": ["Al Noor Trading", "Al-Noor Global"],
+        "entity_type": "organization",
+        "country": "AE",
+        "dob": None,
+        "program": "SDGT",
+    },
+    {
+        "id": "EU-3089",
+        "name": "Caspian Petrochemical Holdings Ltd.",
+        "aliases": ["Caspian Petrochem", "Caspian Petrochemical"],
+        "entity_type": "organization",
+        "country": "IR",
+        "dob": None,
+        "program": "IRAN-FIN",
+    },
+    {
+        "id": "OFAC-4012",
+        "name": "Carlos Alberto Mendoza Ruiz",
+        "aliases": ["Carlos Mendoza"],
+        "entity_type": "individual",
+        "country": "VE",
+        "dob": "1981-11-03",
+        "program": "VENEZUELA",
+    },
+]

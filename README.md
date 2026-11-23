@@ -1,4 +1,5 @@
 # Sanctions Screening & Fuzzy Match Entity Resolution Service
+[![CI - Sanctions Entity Resolver](https://github.com/oscartandi/sanctions-entity-resolver/actions/workflows/ci.yml/badge.svg)](https://github.com/oscartandi/sanctions-entity-resolver/actions/workflows/ci.yml)
 
 A fast, explainable FastAPI microservice for real-time sanctions and watchlist screening using multi-algorithm fuzzy name matching (`RapidFuzz`), corporate suffix normalization, and secondary attribute verification (country & date of birth).
 

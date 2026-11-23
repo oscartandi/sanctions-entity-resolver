@@ -1,0 +1,13 @@
+# Web framework & ASGI server for the screening API
+fastapi>=0.115.0
+uvicorn>=0.32.0
+
+# Request and response payload validation
+pydantic>=2.9.0
+
+# High-speed fuzzy string matching for entity & alias resolution
+rapidfuzz>=3.10.0
+
+# Automated unit and API endpoint testing
+pytest>=8.3.0
+httpx>=0.27.0
